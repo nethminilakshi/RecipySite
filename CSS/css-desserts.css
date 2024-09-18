@@ -1,0 +1,19 @@
+.contect {
+  font-size: 20px;
+}
+
+.img {
+  width: 400px;
+  height: 500px;
+
+  margin-left: 100px;
+  object-fit: cover;
+  /* object-fit: cover; */
+  margin-right: 25px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+}
+.link {
+  font-size: 20px;
+}
+/*fgfgfgf*/
