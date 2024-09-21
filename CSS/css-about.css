@@ -1,0 +1,16 @@
+.heading {
+  margin: 25px;
+  padding: 20px;
+  letter-spacing: 0.1em;
+  font-family: Arvo, Georgia, Cambria, Times New Roman, Times, serif;
+  text-align: justify;
+  font-size: 25px;
+  color: rgba(73, 63, 63, 0.616);
+}
+
+p {
+  margin: 0 0 30px;
+  padding: 0;
+  width: 550px;
+  font-size: 20px;
+}

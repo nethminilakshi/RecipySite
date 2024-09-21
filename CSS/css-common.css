@@ -1,3 +1,11 @@
+body {
+  margin: 8px 0px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .site-container {
   margin-left: 110px;
   margin-right: 110px;
@@ -18,6 +26,15 @@
   display: flex;
   justify-content: flex-end;
 }
+
+.site-desc {
+  margin-left: 580px;
+  margin-top: 0;
+  font-size: 22px;
+  font-weight: 500;
+  font-style: italic;
+}
+
 .menubar {
   background-color: #ececec;
   overflow: hidden;
@@ -67,4 +84,61 @@
 }
 .circle .site-title {
   float: left;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 15px 0;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: left;
+  justify-items: start;
+  text-align: left;
+}
+
+.footer-links {
+  overflow: hidden;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+  line-height: 35px;
+}
+
+.footer-links li {
+  color: rgb(173, 162, 162);
+  font-size: 23px;
+  font-weight: 400;
+}
+
+#menu2 a:hover {
+  color: #786cdf;
+}
+.footer-column {
+  padding: 8px;
+}
+
+.footer-title {
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.title {
+  margin: 35px 0;
+  padding: 25px;
+  font-size: 28px;
+  text-align: center;
+  font-style: italic;
+  text-transform: capitalize;
+  color: rgb(100, 59, 59);
 }
