@@ -1,19 +1,25 @@
-.contect {
+.paragraph {
+  text-align: center;
+  color: rgba(66, 64, 64, 0.795);
   font-size: 20px;
+  margin: 5px 0 15px;
+  padding: 0;
 }
 
 .img {
-  width: 400px;
-  height: 500px;
+  width: 500px;
+  height: 600px;
+  margin: 0px 10px 30px 50px;
 
-  margin-left: 100px;
-  object-fit: cover;
-  /* object-fit: cover; */
-  margin-right: 25px;
-  margin-bottom: 5px;
   border: 1px solid black;
+  object-fit: cover;
 }
-.link {
-  font-size: 20px;
+
+.contect {
+  font-size: 18px;
+  width: 70%;
 }
-/*fgfgfgf*/
+
+.topic {
+  color: rgb(119, 50, 50);
+}

@@ -5,3 +5,21 @@
   margin: 5px 0 15px;
   padding: 0;
 }
+
+.img {
+  width: 500px;
+  height: 600px;
+  margin: 0px 10px 30px 50px;
+
+  border: 1px solid black;
+  object-fit: cover;
+}
+
+.contect {
+  font-size: 18px;
+  width: 70%;
+}
+
+.topic {
+  color: rgb(119, 50, 50);
+}

@@ -86,9 +86,28 @@ a {
   float: left;
 }
 
+#menu2 a:hover {
+  color: #786cdf;
+}
+
+.title {
+  margin: 3.4375rem 0 0.625rem;
+  margin-left: 90px;
+  padding: 15px;
+  font-size: 28px;
+  font-style: italic;
+  text-transform: capitalize;
+  color: rgb(58, 40, 70);
+}
+
+.recipy-type {
+  margin: 35px 0px 25px;
+}
+
 .footer {
   background-color: #333;
   color: white;
+  margin: 50px 0px 0px 0px;
   padding: 15px 0;
 }
 
@@ -121,9 +140,6 @@ a {
   font-weight: 400;
 }
 
-#menu2 a:hover {
-  color: #786cdf;
-}
 .footer-column {
   padding: 8px;
 }
@@ -132,13 +148,4 @@ a {
   font-size: 25px;
   font-weight: 800;
   margin-bottom: 10px;
-}
-.title {
-  margin: 35px 0;
-  padding: 25px;
-  font-size: 28px;
-  text-align: center;
-  font-style: italic;
-  text-transform: capitalize;
-  color: rgb(100, 59, 59);
 }
