@@ -66,16 +66,18 @@ a:hover .image-list {
   height: 300px;
   background-color: rgb(165, 97, 42);
   border: 1px solid black;
-  margin: 16px;
+  margin: 0 auto;
   padding: 4px;
 }
 
 .block {
   background-color: rgb(235, 234, 234);
-  margin: 20px 0px;
+  margin: 5% 0px;
   padding: 10px 0px;
   height: 400px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
+
 #text1 {
   font-family: "Dancing Script", cursive;
   text-align: center;
