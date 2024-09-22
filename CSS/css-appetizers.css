@@ -21,5 +21,7 @@
 }
 
 .topic {
+  margin: 18px 0px 2px;
+  padding: 15px 0px 5px;
   color: rgb(119, 50, 50);
 }
