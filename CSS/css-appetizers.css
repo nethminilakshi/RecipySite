@@ -1,7 +1,7 @@
 .paragraph {
   text-align: center;
   color: rgba(66, 64, 64, 0.795);
-  font-size: 20px;
+  font-size: 1.25rem;
   margin: 5px 0 15px;
   padding: 0;
 }
@@ -16,7 +16,7 @@
 }
 
 .content {
-  font-size: 18px;
+  font-size: 1.125rem;
   width: 70%;
 }
 
