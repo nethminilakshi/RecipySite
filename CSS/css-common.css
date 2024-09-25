@@ -20,7 +20,7 @@ a {
   font-weight: 500;
   margin: 0;
 }
-.navbar {
+.header {
   background-color: #ddd7d7;
   overflow: hidden;
   display: flex;
@@ -35,44 +35,38 @@ a {
   font-style: italic;
 }
 
-.menubar {
+.navigation-bar {
   background-color: #ececec;
   overflow: hidden;
   display: flex;
   justify-content: flex-start;
 }
-#menu a:hover {
+#navigation-items a:hover {
   color: #2216c7;
 }
-.nav-links {
+.header-list {
   list-style-type: none;
   margin: 5px;
   padding: 0;
   display: flex;
 }
-.nav-links li {
-  float: none;
-}
 
-.nav-links a {
+.header-list li a {
   display: block;
   color: rgb(65, 64, 64);
   font-weight: 700;
   font-size: 20px;
   text-align: center;
   padding: 2px 22px;
-  text-decoration: none;
+  float: none;
   transition: 0.4s;
 }
 
-#nav a:hover {
+#header-items a:hover {
   background-color: #b3b1b1;
 }
-.site-header {
-  padding-top: 20px;
+.site-title {
   margin: 0;
-}
-.site-header .title-area {
   padding: 6px 0 20px;
 }
 
@@ -83,26 +77,6 @@ a {
   background-color: burlywood;
   border-radius: 50%;
 }
-.circle .site-title {
-  float: left;
-}
-
-#menu2 a:hover {
-  color: #786cdf;
-}
-#menu2 li a {
-  display: block;
-  font-size: 19px;
-  text-transform: capitalize;
-  color: #bdb6b6;
-  text-decoration: none;
-  transition: 0.4s;
-}
-#menu2 li a:hover {
-  color: white;
-  padding-left: 2px;
-}
-
 .title {
   margin: 2.4375rem 0 1.625rem;
   margin-left: 90px;
@@ -115,6 +89,21 @@ a {
 
 .recipy-type {
   margin: 35px 0px 25px;
+}
+#footer-items a:hover {
+  color: #786cdf;
+}
+#footer-items li a {
+  display: block;
+  font-size: 19px;
+  text-transform: capitalize;
+  color: #bdb6b6;
+
+  transition: 0.4s;
+}
+#footer-items li a:hover {
+  color: white;
+  padding-left: 2px;
 }
 
 .footer {
@@ -165,6 +154,7 @@ a {
   color: #dedede;
   text-transform: capitalize;
 }
+
 .footer-column h3::before {
   content: "";
   position: absolute;
@@ -174,15 +164,11 @@ a {
   height: 2px;
   background-color: #f1bc0d;
 }
+
 .footer-text {
   font-size: 15px;
   font-weight: 400;
   margin-bottom: 10px;
-}
-
-.footer-separator {
-  border-right: 1px solid #fff;
-  height: 100%;
 }
 
 .social-links a {
@@ -199,4 +185,8 @@ a {
 }
 .social-links a:hover {
   background-color: #f1bc0d;
+}
+.footer-separator {
+  border-right: 1px solid #fff;
+  height: 100%;
 }

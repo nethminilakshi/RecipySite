@@ -6,6 +6,11 @@
     <title>Side Dishes</title>
     <link rel="stylesheet" href="/CSS/css-common.css" />
     <link rel="stylesheet" href="/CSS/css-side-dishes.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
     <style>
       .center {
         display: 100px;
@@ -17,29 +22,33 @@
 
   <body>
     <div class="site-container">
-      <nav class="navbar">
-        <ul class="nav-links" id="nav">
-          <li><a href="/Pages/index.html">Home</a></li>
-          <li><a href="/Pages/About.html">About</a></li>
-          <li><a href="/Pages/CookBook.html">Cookbook</a></li>
-          <li><a href="/Pages/Contact.html">Contact</a></li>
-        </ul>
-      </nav>
-      <hr />
+      <header>
+        <nav class="header">
+          <ul class="header-list" id="header-items">
+            <li><a href="/Pages/index.html">Home</a></li>
+            <li><a href="/Pages/About.html">About</a></li>
+            <li><a href="/Pages/CookBook.html">Cookbook</a></li>
+            <li><a href="/Pages/Contact.html">Contact</a></li>
+          </ul>
+        </nav>
 
-      <header class="site-header">
-        <div class="wrap">
-          <div class="title-area">
+        <hr />
+        <div class="title-area">
+          <a
+            href="/Pages/index.html"
+            style="text-decoration: none; color: inherit"
+          >
             <h1 class="site-title">
               COOKIE
               <span style="color: rgb(197, 193, 193)"> <b>+</b></span> kate
             </h1>
-          </div>
+          </a>
         </div>
         <p class="site-desc">celebrating whole foods</p>
       </header>
-      <nav class="menubar">
-        <ul class="nav-links" id="menu">
+
+      <nav class="navigation-bar">
+        <ul class="header-list" id="navigation-items">
           <li>
             <a href="/Pages/Appetizers and Snacks.html">Appetizers-Snacks</a>
           </li>
@@ -157,9 +166,9 @@
     <footer class="footer">
       <div class="footer-container">
         <div class="footer-column">
-          <h3 class="footer-title">Cookie + kate</h3>
+          <h3>Cookie + kate</h3>
           <nav class="footerbar">
-            <ul class="footer-links" id="menu2">
+            <ul class="footer-links" id="footer-items">
               <li><a href="/Pages/index.html">Home</a></li>
               <li><a href="/Pages/About.html">About</a></li>
               <li><a href="/Pages/CookBook.html">Cookbook</a></li>
@@ -168,8 +177,8 @@
           </nav>
         </div>
         <div class="footer-column">
-          <h3 class="footer-title">Food recipes</h3>
-          <ul class="footer-links" id="menu2">
+          <h3>Food recipes</h3>
+          <ul class="footer-links" id="footer-items">
             <li>
               <a href="/Pages/Appetizers and Snacks.html"
                 >Appetizers and Snacks</a
@@ -182,7 +191,23 @@
             <li><a href="/Pages/Vegens.html">Vegens</a></li>
           </ul>
         </div>
+        <div class="footer-column">
+          <h3>follow us</h3>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
       </div>
+      <hr class="footer-separator" />
+      <center>
+        <p class="footer-text">
+          &copy; 2024 <a href="/Pages/index.html"> Cookie + kate</a>. All rights
+          reserved.
+        </p>
+      </center>
     </footer>
   </body>
 </html>
