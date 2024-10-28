@@ -63,3 +63,196 @@
 .method-steps {
   padding: 20px 0;
 }
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .paragraph {
+    font-size: 1rem;
+    padding: 10px 0;
+  }
+
+  .img-container {
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  #img3 {
+    width: 150px;
+    height: 140px;
+  }
+
+  .img-NanBread {
+    width: 280px;
+    height: 280px;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .content-para {
+    padding: 15px;
+    font-size: 1rem;
+  }
+
+  .method {
+    font-size: 0.9rem;
+    padding: 15px;
+  }
+
+  .method-steps {
+    padding: 15px 0;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .paragraph {
+    font-size: 1.1rem;
+    padding: 12px 0;
+  }
+
+  .img-container {
+    padding: 15px;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  #img3 {
+    width: 165px;
+    height: 155px;
+  }
+
+  .img-NanBread {
+    width: 300px;
+    height: 300px;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .content-para {
+    padding: 18px;
+    font-size: 1.05rem;
+  }
+
+  .method {
+    font-size: 1rem;
+    padding: 20px;
+  }
+
+  .method-steps {
+    padding: 18px 0;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .paragraph {
+    font-size: 1.15rem;
+    padding: 15px 0;
+  }
+
+  .img-container {
+    padding: 18px;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  #img3 {
+    width: 180px;
+    height: 170px;
+  }
+
+  .img-NanBread {
+    width: 350px;
+    height: 350px;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .content-para {
+    padding: 20px;
+    font-size: 1.1rem;
+  }
+
+  .method {
+    font-size: 1.05rem;
+    padding: 25px;
+  }
+
+  .method-steps {
+    padding: 20px 0;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .paragraph {
+    font-size: 1.1rem;
+  }
+
+  .img-container {
+    gap: 18px;
+  }
+
+  #img3 {
+    width: 190px;
+    height: 178px;
+  }
+
+  .img-NanBread {
+    width: 380px;
+    height: 380px;
+  }
+
+  .content {
+    flex-direction: row;
+  }
+
+  .content-para {
+    padding: 25px;
+    font-size: 1.15rem;
+  }
+
+  .method {
+    font-size: 1.08rem;
+    padding: 28px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .paragraph {
+    font-size: 1.25rem;
+  }
+
+  .img-container {
+    gap: 20px;
+  }
+
+  #img3 {
+    width: 197px;
+    height: 183px;
+  }
+
+  .img-NanBread {
+    width: 400px;
+    height: 400px;
+  }
+
+  .content {
+    flex-direction: row;
+  }
+
+  .content-para {
+    padding: 20px 30px;
+    font-size: 1.2rem;
+  }
+
+  .method {
+    font-size: 1.1rem;
+    padding: 30px;
+  }
+
+  #img1:hover,
+  #img2:hover,
+  #img3:hover,
+  #img4:hover {
+    transform: scale(1.12);
+  }
+}

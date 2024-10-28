@@ -59,3 +59,248 @@
   padding: 5px 0;
   font-size: 1.2rem;
 }
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .paragraph {
+    font-size: 16px;
+    padding: 8px 0 12px;
+  }
+
+  .img-container {
+    padding: 15px 5px;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .img {
+    width: 130px;
+    height: 130px;
+    border: 5px solid rgb(185, 185, 185);
+  }
+
+  .img:hover {
+    transform: scale(1.05);
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-pumpkin {
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+  }
+
+  .content-para {
+    padding: 10px 15px;
+    font-size: 1rem;
+    gap: 8px;
+  }
+
+  .method {
+    padding: 15px;
+  }
+
+  .ingredients {
+    padding: 15px 0 20px;
+  }
+
+  .method ul li,
+  .steps li {
+    padding: 8px 0;
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .paragraph {
+    font-size: 1rem;
+    padding: 8px 0 12px;
+  }
+
+  .img-container {
+    padding: 20px 8px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .img {
+    width: 150px;
+    height: 150px;
+    border: 6px solid rgb(185, 185, 185);
+  }
+
+  .img:hover {
+    transform: scale(1.08);
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-pumpkin {
+    width: 350px;
+    height: 350px;
+    padding: 8px;
+  }
+
+  .content-para {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    gap: 8px;
+  }
+
+  .method {
+    padding: 20px;
+  }
+
+  .ingredients {
+    padding: 15px 0 25px;
+  }
+
+  .method ul li,
+  .steps li {
+    padding: 8px 0;
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .paragraph {
+    font-size: 1.01rem;
+    padding: 10px 0 15px;
+  }
+
+  .img-container {
+    padding: 20px;
+    gap: 25px;
+  }
+
+  .img {
+    width: 170px;
+    height: 170px;
+    border: 7px solid rgb(185, 185, 185);
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-pumpkin {
+    width: 400px;
+    height: 400px;
+    padding: 8px;
+  }
+
+  .content-para {
+    padding: 15px 25px;
+    font-size: 1.15rem;
+    gap: 10px;
+  }
+
+  .method {
+    padding: 25px;
+  }
+
+  .ingredients {
+    padding: 20px 0 25px;
+  }
+
+  .method ul li,
+  .steps li {
+    padding: 8px 0;
+    font-size: 1.15rem;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .paragraph {
+    font-size: 1.1rem;
+  }
+
+  .img-container {
+    gap: 28px;
+  }
+
+  .img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .content {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .img-pumpkin {
+    width: 450px;
+    height: 450px;
+  }
+
+  .content-para {
+    padding: 10px 25px;
+    font-size: 1.18rem;
+  }
+
+  .method ul li,
+  .steps li {
+    font-size: 1.18rem;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .paragraph {
+    font-size: 1.25rem;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .img-container {
+    padding: 25px 10px;
+    gap: 30px;
+  }
+
+  .img {
+    width: 200px;
+    height: 200px;
+    border: 8px solid rgb(185, 185, 185);
+  }
+
+  .img:hover {
+    transform: scale(1.1);
+  }
+
+  .content {
+    justify-content: center;
+    gap: 25px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .img-pumpkin {
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+  }
+
+  .content-para {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    gap: 10px;
+  }
+
+  .method {
+    padding: 30px;
+  }
+
+  .ingredients {
+    padding: 20px 0 30px;
+  }
+
+  .method ul li,
+  .steps li {
+    padding: 10px 0;
+    font-size: 1.2rem;
+  }
+}

@@ -65,3 +65,252 @@
   font-size: 1.125rem;
   margin: 0;
 }
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .common-content {
+    height: auto;
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .paragraph {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0 10px 10px 0;
+  }
+
+  .img-container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    place-items: center;
+  }
+
+  .img {
+    width: 280px;
+    height: 180px;
+    border-radius: 20px;
+  }
+
+  .img:hover {
+    transform: scale(1.05);
+  }
+
+  .content {
+    align-items: center;
+  }
+
+  .img-omlette {
+    width: 280px;
+    height: 250px;
+  }
+
+  .description {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .side-content {
+    padding: 15px;
+    gap: 10px;
+  }
+
+  .side-content > p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .ingredients,
+  .steps {
+    padding: 0 15px;
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .common-content {
+    height: auto;
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .paragraph {
+    width: 100%;
+    font-size: 1.02rem;
+    padding: 0 15px 12px 0;
+  }
+
+  .img-container {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    place-items: center;
+  }
+
+  .img {
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+  }
+
+  .img-omlette {
+    width: 300px;
+    height: 270px;
+  }
+
+  .description {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .side-content {
+    padding: 15px;
+    gap: 12px;
+  }
+
+  .side-content > p {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .ingredients,
+  .steps {
+    padding: 0 15px;
+    font-size: 1.05rem;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .common-content {
+    height: auto;
+    flex-direction: column;
+    padding: 18px;
+  }
+
+  .paragraph {
+    width: 100%;
+    font-size: 1.12rem;
+    padding: 0 20px 15px 0;
+  }
+
+  .img-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    place-items: center;
+  }
+
+  .img {
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+  }
+
+  .img-omlette {
+    width: 320px;
+    height: 280px;
+  }
+
+  .description {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .side-content {
+    padding: 20px;
+    gap: 12px;
+  }
+
+  .side-content > p {
+    font-size: 1.15rem;
+    text-align: center;
+  }
+
+  .ingredients,
+  .steps {
+    padding: 0 18px;
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .common-content {
+    height: auto;
+    padding: 20px;
+  }
+
+  .paragraph {
+    font-size: 19px;
+    padding: 0 25px 15px 0;
+  }
+
+  .img-container {
+    gap: 15px;
+  }
+
+  .img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .img-omlette {
+    width: 280px;
+    height: 280px;
+  }
+
+  .description {
+    gap: 20px;
+  }
+
+  .side-content > p {
+    font-size: 1.2rem;
+  }
+
+  .ingredients,
+  .steps {
+    padding: 0 18px;
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .common-content {
+    height: 400px;
+    padding: 20px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .paragraph {
+    width: 50%;
+    font-size: 1.25rem;
+    padding: 0 30px 15px 0;
+  }
+
+  .img-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .img {
+    width: 200px;
+    height: 200px;
+    border-radius: 35px;
+  }
+
+  .img-omlette {
+    width: 300px;
+    height: 300px;
+  }
+
+  .description {
+    gap: 25px;
+  }
+
+  .side-content {
+    gap: 15px;
+  }
+
+  .side-content > p {
+    font-size: 1.25rem;
+  }
+
+  .ingredients,
+  .steps {
+    padding: 0 20px;
+    font-size: 1.125rem;
+  }
+}

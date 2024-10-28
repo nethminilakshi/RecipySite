@@ -490,24 +490,6 @@ a {
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
-  .header-list li a:hover {
-    transform: scale(1.03);
-  }
-
-  #header-items a:hover {
-    background-color: #b3b1b1;
-  }
-
-  #footer-items li a:hover {
-    padding-left: 1px;
-  }
-
-  .social-links a:hover {
-    background-color: #f1bc0d;
-  }
-}
-
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   body {
     margin: 6px 0px 0px;
@@ -574,10 +556,6 @@ a {
     line-height: 30px;
   }
 
-  .footer-links li {
-    font-size: 1.25rem;
-  }
-
   .footer-column {
     padding: 6px;
   }
@@ -598,7 +576,7 @@ a {
   }
 
   #footer-items li a {
-    font-size: 0.06rem;
+    font-size: 0.1.3rem;
   }
 
   .social-links a {

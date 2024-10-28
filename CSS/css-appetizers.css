@@ -1,35 +1,3 @@
-/* .paragraph {
-  text-align: center;
-  color: rgba(66, 64, 64, 0.795);
-  font-size: 1.25rem;
-  margin: 5px 0 15px;
-  padding: 0;
-}
-
-.img {
-  width: 350px;
-  height: 450px;
-  margin: 0px 10px 30px 50px;
-
-  border: 1px solid black;
-  object-fit: cover;
-}
-
-.content {
-  font-size: 1.125rem;
-  width: 70%;
-}
-
-.topic {
-  margin: 18px 0px 2px;
-  padding: 15px 0px 5px;
-  color: rgb(119, 50, 50);
-}
-
-.steps li {
-  padding-bottom: 0.8rem;
-} */
-
 .paragraph {
   text-align: center;
   color: rgba(66, 64, 64, 0.795);
@@ -94,4 +62,257 @@
 .steps li {
   padding: 5px 0;
   font-size: 1.2rem;
+}
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .paragraph {
+    font-size: 1rem;
+    padding: 8px 0 12px;
+  }
+
+  .img3,
+  .img4 {
+    height: 175px;
+    width: 150px;
+  }
+
+  .img-container {
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .img-buffalo {
+    width: 250px;
+    height: 250px;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .content-para {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .method {
+    padding: 15px;
+  }
+
+  .ingredients {
+    padding: 15px 0 20px;
+  }
+
+  .method ul li,
+  .steps li {
+    font-size: 1rem;
+    padding: 8px 0;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .paragraph {
+    font-size: 1.1rem;
+    padding: 8px 0 12px;
+  }
+
+  .img3,
+  .img4 {
+    height: 190px;
+    width: 165px;
+  }
+
+  .img-container {
+    padding: 12px;
+    flex-direction: column;
+  }
+
+  .img-buffalo {
+    width: 270px;
+    height: 270px;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .content-para {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .method {
+    padding: 20px;
+  }
+
+  .ingredients {
+    padding: 15px 0 25px;
+  }
+
+  .method ul li,
+  .steps li {
+    font-size: 1.1rem;
+    padding: 8px 0;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .paragraph {
+    font-size: 18px;
+    padding: 10px 0 15px;
+  }
+
+  .img3,
+  .img4 {
+    height: 200px;
+    width: 180px;
+  }
+
+  .img-container {
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .img-buffalo {
+    width: 280px;
+    height: 280px;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .content-para {
+    width: 80%;
+    padding: 20px;
+  }
+
+  .method {
+    padding: 25px;
+  }
+
+  .ingredients {
+    padding: 20px 0 25px;
+  }
+
+  .method ul li,
+  .steps li {
+    font-size: 1.15rem;
+    padding: 8px 0;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .paragraph {
+    font-size: 19px;
+    padding: 10px 0 15px;
+  }
+
+  .img3,
+  .img4 {
+    height: 210px;
+    width: 190px;
+  }
+
+  .img-container {
+    padding: 18px;
+    gap: 20px;
+  }
+
+  .img-buffalo {
+    width: 290px;
+    height: 290px;
+  }
+
+  .content {
+    flex-direction: row;
+  }
+
+  .content-para {
+    width: 45%;
+    padding: 20px 25px;
+  }
+
+  .method {
+    padding: 28px;
+  }
+
+  .ingredients {
+    padding: 20px 0 28px;
+  }
+
+  .method ul li,
+  .steps li {
+    font-size: 1.18rem;
+    padding: 9px 0;
+  }
+
+  .img:hover {
+    transform: scale(1.08);
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .paragraph {
+    font-size: 22px;
+    padding: 12px 0 18px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .img3,
+  .img4 {
+    height: 250px;
+    width: 220px;
+  }
+
+  .img {
+    border: 2px solid gray;
+  }
+
+  .img:hover {
+    transform: scale(1.12);
+  }
+
+  .img-container {
+    padding: 25px;
+    gap: 25px;
+    justify-content: center;
+  }
+
+  .img-buffalo {
+    width: 320px;
+    height: 320px;
+    border-radius: 22px;
+  }
+
+  .content {
+    flex-direction: row;
+    justify-content: center;
+    max-width: 90%;
+    margin: 0 auto;
+    gap: 20px;
+  }
+
+  .content-para {
+    width: 40%;
+    padding: 25px 35px;
+  }
+
+  .method {
+    padding: 35px;
+  }
+
+  .ingredients {
+    padding: 25px 0 35px;
+  }
+
+  .method ul li {
+    padding: 12px 0;
+    font-size: 1.3rem;
+  }
+
+  .steps li {
+    padding: 12px 0;
+    font-size: 1.3rem;
+  }
+
+  .title:hover {
+    color: rgb(90, 90, 90);
+  }
 }

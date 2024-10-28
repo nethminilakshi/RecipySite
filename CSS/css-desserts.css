@@ -63,3 +63,282 @@
   padding: 5px 0;
   font-size: 1.2rem;
 }
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .paragraph {
+    font-size: 16px;
+    padding: 8px 0 12px;
+  }
+
+  .img-container {
+    margin-left: 5%;
+    padding: 15px;
+  }
+
+  .desertImg-01 {
+    width: 280px;
+    height: 280px;
+    border-radius: 8px;
+  }
+
+  .desertImg-02 {
+    width: 260px;
+    height: 240px;
+    right: 80px;
+    top: 20px;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-chocoCake,
+  .img-appleCake {
+    width: 280px;
+    height: 280px;
+    border-radius: 8px;
+  }
+
+  .content > p {
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+  .method {
+    padding: 20px;
+  }
+
+  .ingredients {
+    padding: 15px 0 20px;
+  }
+
+  .method ul li,
+  .steps li {
+    padding: 8px 0;
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .paragraph {
+    font-size: 17px;
+    padding: 8px 0 12px;
+  }
+
+  .img-container {
+    margin-left: 5%;
+    padding: 18px;
+  }
+
+  .desertImg-01 {
+    width: 300px;
+    height: 300px;
+  }
+
+  .desertImg-02 {
+    width: 280px;
+    height: 260px;
+    right: 90px;
+    top: 25px;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-chocoCake,
+  .img-appleCake {
+    width: 300px;
+    height: 300px;
+  }
+
+  .content > p {
+    padding: 25px;
+    font-size: 1.1rem;
+  }
+
+  .method {
+    padding: 22px;
+  }
+
+  .ingredients {
+    padding: 18px 0 22px;
+  }
+
+  .method ul li,
+  .steps li {
+    padding: 8px 0;
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .paragraph {
+    font-size: 18px;
+    padding: 10px 0 15px;
+  }
+
+  .img-container {
+    margin-left: 8%;
+    padding: 20px;
+  }
+
+  .desertImg-01 {
+    width: 320px;
+    height: 320px;
+  }
+
+  .desertImg-02 {
+    width: 300px;
+    height: 280px;
+    right: 110px;
+    top: 28px;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-chocoCake,
+  .img-appleCake {
+    width: 320px;
+    height: 320px;
+  }
+
+  .content > p {
+    padding: 30px;
+    font-size: 1.15rem;
+  }
+
+  .method {
+    padding: 25px;
+  }
+
+  .ingredients {
+    padding: 20px 0 25px;
+  }
+
+  .method ul li,
+  .steps li {
+    padding: 9px 0;
+    font-size: 1.15rem;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .paragraph {
+    font-size: 19px;
+    padding: 10px 0 15px;
+  }
+
+  .img-container {
+    margin-left: 9%;
+    padding: 22px;
+  }
+
+  .desertImg-01 {
+    width: 335px;
+    height: 335px;
+  }
+
+  .desertImg-02 {
+    width: 315px;
+    height: 290px;
+    right: 120px;
+  }
+
+  .content {
+    flex-direction: row;
+  }
+
+  .img-chocoCake,
+  .img-appleCake {
+    width: 335px;
+    height: 335px;
+  }
+
+  .content > p {
+    padding: 35px;
+    font-size: 1.18rem;
+  }
+
+  .method {
+    padding: 28px;
+  }
+
+  .ingredients {
+    padding: 20px 0 28px;
+  }
+
+  .method ul li,
+  .steps li {
+    padding: 9px 0;
+    font-size: 1.18rem;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .site-container {
+    height: auto;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .paragraph {
+    font-size: 1.4rem;
+    padding: 12px 0 18px;
+  }
+
+  .img-container {
+    margin-left: 10%;
+    padding: 25px;
+  }
+
+  .desertImg-01 {
+    width: 350px;
+    height: 350px;
+  }
+
+  .desertImg-02 {
+    width: 330px;
+    height: 300px;
+    right: 130px;
+    top: 30px;
+  }
+
+  .content {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .img-chocoCake,
+  .img-appleCake {
+    width: 350px;
+    height: 350px;
+  }
+
+  .content > p {
+    padding: 40px;
+    font-size: 1.2rem;
+  }
+
+  .method {
+    padding: 30px;
+  }
+
+  .ingredients {
+    padding: 20px 0 30px;
+  }
+
+  .method ul li,
+  .steps li {
+    padding: 10px 0;
+    font-size: 1.2rem;
+  }
+
+  .desertImg-01:hover,
+  .desertImg-02:hover {
+    transform: scale(1.12);
+    border: 4px solid #5e5d5b;
+  }
+}
