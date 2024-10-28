@@ -1,0 +1,65 @@
+.recipy-type {
+  font-size: 1.6rem;
+}
+.paragraph {
+  text-align: center;
+  color: rgba(66, 64, 64, 0.795);
+  font-size: 20px;
+  padding: 15px 0;
+}
+.img-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+#img3 {
+  width: 197px;
+  height: 183px;
+}
+#img1,
+#img2,
+#img3,
+#img4 {
+  border: 2px solid gray;
+  transition: all 0.7s ease-in-out;
+}
+#img1:hover,
+#img2:hover,
+#img3:hover,
+#img4:hover {
+  transform: scale(1.1);
+}
+.title {
+  transform: color 0.5s ease-in-out;
+}
+
+.title:hover {
+  color: gray;
+}
+
+.img-NanBread {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+.content {
+  display: flex;
+}
+.content-para {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 30px;
+  font-size: 1.2rem;
+  color: rgb(51, 51, 51);
+}
+.method {
+  font-family: serif;
+  font-size: 1.1rem;
+  padding: 30px;
+}
+.method-steps {
+  padding: 20px 0;
+}

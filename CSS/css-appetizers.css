@@ -1,4 +1,4 @@
-.paragraph {
+/* .paragraph {
   text-align: center;
   color: rgba(66, 64, 64, 0.795);
   font-size: 1.25rem;
@@ -7,8 +7,8 @@
 }
 
 .img {
-  width: 500px;
-  height: 600px;
+  width: 350px;
+  height: 450px;
   margin: 0px 10px 30px 50px;
 
   border: 1px solid black;
@@ -28,4 +28,62 @@
 
 .steps li {
   padding-bottom: 0.8rem;
+} */
+
+.paragraph {
+  text-align: center;
+  color: rgba(66, 64, 64, 0.795);
+  font-size: 20px;
+  padding: 10px 0 15px;
+}
+.img3 {
+  height: 225px;
+  width: 200px;
+}
+.img4 {
+  height: 225px;
+  width: 200px;
+}
+
+.img {
+  border: 2px solid gray;
+  transition: all 0.7s ease-in-out;
+}
+
+.img:hover {
+  transform: scale(1.1);
+}
+
+.img-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.img-buffalo {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.title {
+  transition: color 0.5s ease-in-out;
+}
+.title:hover {
+  color: gray;
+}
+.content {
+  display: flex;
+}
+.content-para {
+  padding: 20px 30px;
+  width: 40%;
+}
+.method {
+  padding: 30px;
+}
+
+.steps li {
+  padding: 10px 0;
+  font-size: 1.2rem;
 }
