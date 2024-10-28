@@ -8,19 +8,20 @@
   padding: 10px 0 15px;
 }
 .img-container {
+  margin-left: 10%;
   padding: 25px;
 }
 .desertImg-01 {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   border-radius: 10px;
   position: relative;
   transition: transform 0.7s ease-in-out;
 }
 
 .desertImg-02 {
-  width: 300px;
-  height: 260px;
+  width: 330px;
+  height: 300px;
   border-radius: 10px;
   position: relative;
   top: 30px;

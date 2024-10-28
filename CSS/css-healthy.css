@@ -6,14 +6,15 @@
 }
 .img-container {
   width: 100%;
-  padding: 25px;
+  padding: 25px 10px;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  align-items: centerx;
+  gap: 30px;
 }
 .img {
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   margin: 0;
   border: 8px solid rgb(185, 185, 185);
@@ -25,4 +26,36 @@
   transform: scale(1.1);
   border-radius: 15px;
   border: 3px solid #ecbf6b;
+}
+.content {
+  display: flex;
+}
+.img-pumpkin {
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+  padding: 10px;
+}
+.content-para {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+}
+.method {
+  padding: 30px;
+}
+.ingredients {
+  padding: 20px 0pc 30px;
+  margin: 0;
+}
+.method ul li {
+  padding: 10px 0;
+  font-size: 1.2rem;
+}
+.steps li {
+  padding: 5px 0;
+  font-size: 1.2rem;
 }
