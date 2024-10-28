@@ -21,6 +21,7 @@
 #img3,
 #img4 {
   border: 2px solid gray;
+  border-radius: 10px;
   transition: all 0.7s ease-in-out;
 }
 #img1:hover,
