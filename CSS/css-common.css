@@ -106,8 +106,12 @@ a {
   font-style: italic;
   text-transform: capitalize;
   color: rgb(2, 25, 75);
+  transition: color 0.5s ease-in-out;
 }
 
+.title:hover {
+  color: gray;
+}
 .recipy-type {
   margin: 35px 0px 25px;
   font-size: 1.8rem;
@@ -219,8 +223,6 @@ a {
 }
 @media screen and (max-width: 320px) {
 }
-@media screen and (min-width: 321) and (max-width: 375px) {
-}
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
   body {
@@ -275,6 +277,9 @@ a {
     font-size: 20px;
   }
 
+  .title:hover {
+    color: gray;
+  }
   /* Footer Styles */
   .footer {
     margin: 30px 0px 0px 0px;

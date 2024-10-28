@@ -1,4 +1,4 @@
-.paragraph {
+/* .paragraph {
   text-align: center;
   color: rgba(66, 64, 64, 0.795);
   font-size: 20px;
@@ -28,4 +28,44 @@
 
 .steps li {
   padding-bottom: 0.8rem;
+} */
+
+.site-container {
+  height: auto;
+}
+.paragraph {
+  text-align: center;
+  color: rgba(66, 64, 64, 0.795);
+  font-size: 20px;
+  padding: 10px 0 15px;
+}
+.img-container {
+  padding: 25px;
+}
+.desertImg-01 {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.desertImg-02 {
+  width: 300px;
+  height: 260px;
+  border-radius: 10px;
+  position: relative;
+  top: 30px;
+  right: 130px;
+}
+.content {
+  display: flex;
+}
+.img-chocoCake {
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+}
+.content > p {
+  padding: 30px;
+  font-size: 1.2rem;
 }

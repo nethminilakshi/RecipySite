@@ -82,8 +82,15 @@
 .method {
   padding: 30px;
 }
-
-.steps li {
+.ingredients {
+  padding: 20px 0pc 30px;
+  margin: 0;
+}
+.method ul li {
   padding: 10px 0;
+  font-size: 1.2rem;
+}
+.steps li {
+  padding: 5px 0;
   font-size: 1.2rem;
 }
