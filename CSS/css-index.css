@@ -173,7 +173,7 @@ a:hover .image-list {
     border-width: 6px;
   }
   .item-name {
-    font-size: 16px;
+    font-size: 1rem;
     padding: 0 0 12px;
   }
 
@@ -196,15 +196,15 @@ a:hover .image-list {
   }
 
   #text1 {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   #text2 {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 
   #text3 {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .search-bar {
@@ -276,15 +276,15 @@ a:hover .image-list {
   }
 
   #text1 {
-    font-size: 19px;
+    font-size: 1.1875rem;
   }
 
   #text2 {
-    font-size: 26px;
+    font-size: 1.625rem;
   }
 
   #text3 {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .search-bar {
@@ -347,15 +347,15 @@ a:hover .image-list {
   }
 
   #text1 {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   #text2 {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 
   #text3 {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .search-bar input {
@@ -404,15 +404,15 @@ a:hover .image-list {
   }
 
   #text1 {
-    font-size: 21px;
+    font-size: 1.3rem;
   }
 
   #text2 {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 
   #text3 {
-    font-size: 21px;
+    font-size: 1.3rem;
   }
 
   .search-bar input {
