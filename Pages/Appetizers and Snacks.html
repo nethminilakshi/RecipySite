@@ -14,8 +14,28 @@
   </head>
   <body>
     <div class="site-container">
-      <header>
+      <header id="header-bar">
         <nav class="header">
+          <div class="search-container">
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Find a recipe or ingredient"
+            />
+            <button class="search-button">
+              <svg
+                class="search-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+            </button>
+          </div>
+
           <ul class="header-list" id="header-items">
             <li><a href="/index.html">Home</a></li>
             <li><a href="/Pages/About.html">About</a></li>
@@ -176,6 +196,62 @@
                 </ol>
               </div>
             </div>
+          </div>
+          <div class="recipe-grid">
+            <a href="#" class="recipe-card">
+              <div class="image-container">
+                <img
+                  src="/Assests/Images/8710394-Million-Dollar-Potato-Casserole-ddmfs-0194-4x3-beauty-9f91b56e603144eaa1081a987b9116c2.webp"
+                  alt="Cheesy Casserole"
+                  class="recipe-image"
+                />
+              </div>
+              <div class="category">CHEESE RECIPES</div>
+              <h2 class="title">Our 17 Cheesiest Casseroles of All Time</h2>
+            </a>
+
+            <a href="#" class="recipe-card">
+              <div class="image-container">
+                <img
+                  src="/Assests/Images/8600604_Chicken-Pot-Pie-Soup_Shelia-Johnson_4x3-5a2ff8adf5274bbd953ec86cd515c3eb.webp"
+                  alt="Cozy Soup"
+                  class="recipe-image"
+                />
+              </div>
+              <div class="category">SOUP RECIPES</div>
+              <h2 class="title">
+                7 Easy and Cozy Soup Recipes for Every Night of the Week
+              </h2>
+            </a>
+
+            <a href="#" class="recipe-card">
+              <div class="image-container">
+                <img
+                  src="/Assests/Images/21353-italian-spaghetti-sauce-with-meatballs-3x2-138-1ce49b508a6e483ca909431025e8240d.webp"
+                  alt="Kid-Friendly Dinner"
+                  class="recipe-image"
+                />
+              </div>
+              <div class="category">KID-FRIENDLY</div>
+              <h2 class="title">
+                7 Kid-Friendly Dinners for Every Night of the Week
+              </h2>
+            </a>
+
+            <a href="#" class="recipe-card">
+              <div class="image-container">
+                <img
+                  src="/Assests/Images/8696926_Seared-Chuck-Eye-Steak_Dotdash-Meredith-Food-Studios_4x3-820877383c1b445fa7a7c6c1315f75d0.webp"
+                  alt="Steak Dinner"
+                  class="recipe-image"
+                />
+              </div>
+              <div class="category">STEAKS</div>
+              <h2 class="title">
+                20 Go-To Steak and Potato Dinner Recipes You'll Make Again and
+                Again
+              </h2>
+            </a>
           </div>
         </section>
       </main>

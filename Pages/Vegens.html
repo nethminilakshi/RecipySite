@@ -15,8 +15,28 @@
   </head>
   <body>
     <div class="site-container">
-      <header>
+      <header id="header-bar">
         <nav class="header">
+          <div class="search-container">
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Find a recipe or ingredient"
+            />
+            <button class="search-button">
+              <svg
+                class="search-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+            </button>
+          </div>
+
           <ul class="header-list" id="header-items">
             <li><a href="/index.html">Home</a></li>
             <li><a href="/Pages/About.html">About</a></li>
@@ -143,6 +163,84 @@
                 </li>
               </ol>
             </div>
+          </div>
+          <div class="recipe-grid">
+            <a href="#" class="recipe-card">
+              <div class="image-container">
+                <img
+                  src="/Assests/Images/img1.webp"
+                  alt="Caper Pesto"
+                  class="recipe-image"
+                />
+              </div>
+              <div class="card-content">
+                <div class="category">PESTO</div>
+                <h2 class="title">Caper Pesto</h2>
+              </div>
+            </a>
+
+            <a href="#" class="recipe-card">
+              <div class="image-container">
+                <img
+                  src="/Assests/Images/img2.webp"
+                  alt="Date and Dried Cherry Mostarda"
+                  class="recipe-image"
+                />
+              </div>
+              <div class="card-content">
+                <div class="category">DATES</div>
+                <h2 class="title">Date and Dried Cherry Mostarda</h2>
+              </div>
+            </a>
+
+            <a href="#" class="recipe-card">
+              <div class="image-container">
+                <img
+                  src="/Assests/Images/img3.webp"
+                  alt="Loaded Broccoli Casserole"
+                  class="recipe-image"
+                />
+              </div>
+              <div class="card-content">
+                <div class="category">BROCCOLI CASSEROLE RECIPES</div>
+                <h2 class="title">Loaded Broccoli Casserole</h2>
+                <div class="rating">
+                  <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                  </div>
+                  <span class="rating-count">2 Ratings</span>
+                </div>
+              </div>
+            </a>
+
+            <!-- <a href="#" class="recipe-card">
+              <div class="image-container">
+                <img
+                  src="/placeholder.svg?height=300&width=400"
+                  alt="Holiday Potatoes"
+                  class="recipe-image"
+                />
+                <button class="favorite-btn">
+                  <svg
+                    class="heart-icon"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div class="card-content">
+                <div class="category">MASHED POTATO RECIPES</div>
+                <h2 class="title">Holiday Potatoes</h2>
+              </div>
+            </a> -->
           </div>
         </section>
       </main>
