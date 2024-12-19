@@ -60,193 +60,153 @@
   font-size: 1.2rem;
 }
 
-@media screen and (min-width: 320px) and (max-width: 375px) {
+/* Media query for screens up to 320px */
+@media (max-width: 320px) {
   .paragraph {
     font-size: 16px;
     padding: 8px 0 12px;
   }
-
   .img-container {
-    padding: 15px 5px;
-    gap: 15px;
-    flex-wrap: wrap;
-  }
-
-  .img {
-    width: 130px;
-    height: 130px;
-    border: 5px solid rgb(185, 185, 185);
-  }
-
-  .img:hover {
-    transform: scale(1.05);
-  }
-
-  .content {
     flex-direction: column;
-    align-items: center;
-  }
-
-  .img-pumpkin {
-    width: 300px;
-    height: 300px;
-    padding: 5px;
-  }
-
-  .content-para {
-    padding: 10px 15px;
-    font-size: 1rem;
-    gap: 8px;
-  }
-
-  .method {
-    padding: 15px;
-  }
-
-  .ingredients {
-    padding: 15px 0 20px;
-  }
-
-  .method ul li,
-  .steps li {
-    padding: 8px 0;
-    font-size: 1rem;
-  }
-}
-@media screen and (min-width: 376px) and (max-width: 425px) {
-  .paragraph {
-    font-size: 1rem;
-    padding: 8px 0 12px;
-  }
-
-  .img-container {
-    padding: 20px 8px;
+    padding: 15px 5px;
     gap: 20px;
-    flex-wrap: wrap;
   }
-
   .img {
     width: 150px;
     height: 150px;
-    border: 6px solid rgb(185, 185, 185);
   }
-
-  .img:hover {
-    transform: scale(1.08);
+  .img-pumpkin {
+    width: 100%;
+    height: auto;
   }
-
   .content {
     flex-direction: column;
-    align-items: center;
   }
+  .content-para {
+    padding: 10px 15px;
+    font-size: 1rem;
+  }
+  .method {
+    padding: 15px;
+  }
+  .ingredients {
+    padding: 15px 0 20px;
+  }
+  .method ul li,
+  .steps li {
+    font-size: 1rem;
+    padding: 5px 0;
+  }
+}
 
+@media (min-width: 321px) and (max-width: 375px) {
+  .paragraph {
+    font-size: 18px;
+  }
+  .img-container {
+    flex-direction: column;
+    padding: 20px 8px;
+    gap: 25px;
+  }
+  .img {
+    width: 175px;
+    height: 175px;
+  }
   .img-pumpkin {
-    width: 350px;
-    height: 350px;
-    padding: 8px;
+    width: 100%;
+    height: auto;
   }
-
+  .content {
+    flex-direction: column;
+  }
   .content-para {
     padding: 10px 20px;
     font-size: 1.1rem;
-    gap: 8px;
   }
-
   .method {
     padding: 20px;
   }
-
   .ingredients {
-    padding: 15px 0 25px;
+    padding: 18px 0 25px;
   }
-
   .method ul li,
   .steps li {
-    padding: 8px 0;
     font-size: 1.1rem;
   }
 }
-@media screen and (min-width: 426px) and (max-width: 768px) {
+
+/* Media query for screens between 376px and 425px */
+@media (min-width: 376px) and (max-width: 425px) {
   .paragraph {
-    font-size: 1.01rem;
-    padding: 10px 0 15px;
+    font-size: 19px;
   }
-
   .img-container {
-    padding: 20px;
-    gap: 25px;
+    flex-wrap: wrap;
+    padding: 22px 10px;
   }
-
-  .img {
-    width: 170px;
-    height: 170px;
-    border: 7px solid rgb(185, 185, 185);
-  }
-
-  .content {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .img-pumpkin {
-    width: 400px;
-    height: 400px;
-    padding: 8px;
-  }
-
-  .content-para {
-    padding: 15px 25px;
-    font-size: 1.15rem;
-    gap: 10px;
-  }
-
-  .method {
-    padding: 25px;
-  }
-
-  .ingredients {
-    padding: 20px 0 25px;
-  }
-
-  .method ul li,
-  .steps li {
-    padding: 8px 0;
-    font-size: 1.15rem;
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .paragraph {
-    font-size: 1.1rem;
-  }
-
-  .img-container {
-    gap: 28px;
-  }
-
   .img {
     width: 180px;
     height: 180px;
   }
-
-  .content {
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-  }
-
   .img-pumpkin {
-    width: 450px;
-    height: 450px;
+    width: 100%;
+    height: auto;
   }
-
+  .content {
+    flex-direction: column;
+  }
   .content-para {
     padding: 10px 25px;
-    font-size: 1.18rem;
+    font-size: 1.15rem;
   }
-
+  .method {
+    padding: 25px;
+  }
+  .ingredients {
+    padding: 20px 0 28px;
+  }
   .method ul li,
   .steps li {
-    font-size: 1.18rem;
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .img-container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .img {
+    width: 190px;
+    height: 190px;
+  }
+  .img-pumpkin {
+    width: 80%;
+    height: auto;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .content-para {
+    padding: 15px 30px;
+  }
+  .method {
+    padding: 25px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .img-container {
+    justify-content: space-around;
+  }
+  .img-pumpkin {
+    width: 400px;
+    height: 400px;
+  }
+  .content {
+    flex-direction: row;
+  }
+  .content-para {
+    padding: 10px 20px;
   }
 }
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
